@@ -8,13 +8,13 @@ export const Hero = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I'm Nhan</h1>
-                <p className={styles.description}> 
-                    I am a Computer Science student at 
+                <p className={styles.description}>
+                    I am a Computer Science student at
                     the University of California, Irvine!
                 </p>
-            
+
             </div>
-            <img src={getImageUrl("hero/hero.jpeg")} alt="Hero image" className={styles.heroImg}/>
+            <img src={getImageUrl("hero/hero.png")} alt="Hero image" className={styles.heroImg}/>
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur} />
         </section>
