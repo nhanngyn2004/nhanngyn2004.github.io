@@ -3,7 +3,7 @@
 .container {
     position: relative;
     display: flex;
-    align-items: flex;
+    align-items: center;
     justify-content: space-between;
     margin-top: 49px;
     z-index: 1;
@@ -29,7 +29,6 @@
         rgba(255, 255,255, 1) 70%,
         rgba(255, 255, 255, 0) 120%
     );
-
     -webkit-background-clip: text;
 }
 
@@ -69,7 +68,7 @@
     top: -128px;
     left: -10vw;
     border-radius: 764px;
-    background: rgba(212, 216, 225, 0.7);
+    background: rgba(0, 0, 0, 0.7);
     filter: blur(100px);
     z-index: 0;
 }
@@ -83,7 +82,7 @@
     top: -246px;
     right: -25vw;
     border-radius: 764px;
-    background: rgba(12, 205, 212, 0.7);
+    background: rgba(255, 255, 255, 0.7);
     filter: blur(100px);
     z-index: 0;
 }
