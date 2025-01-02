@@ -39,7 +39,7 @@
 }
 
 .heroImg {
-    width: 15%;
+    width: 50%;
     height: auto;
     z-index: 1;
     animation-name: floating;
