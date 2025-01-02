@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Minesweeper AI",
+        "imageSrc": "projects/ai.png",
+        "description": "Programmed an AI to play minesweeper using probability and algorithms to determine the next best move.",
+        "skills": ["Python"]
+    },
+    {
+        "title": "Totoro Travels",
+        "imageSrc": "projects/totoro.png",
+        "description": "Created a travel website utilizing the Yelp API to provide the best recommendations based on the location.",
+        "skills": ["JavaScript", "HTML", "CSS", "Python"]
+    }
+]
