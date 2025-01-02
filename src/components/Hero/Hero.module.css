@@ -25,9 +25,9 @@
     margin-bottom: 33px;
     font-family: var(--font-roboto);
     background: linear-gradient(
-        90 deg,
+        90deg,
         rgba(255, 255,255, 1) 70%,
-        rgba(255, 255, 255, 0) 120%
+        rgba(0, 0, 0, 0) 120%
     );
     -webkit-background-clip: text;
 }
@@ -39,7 +39,8 @@
 }
 
 .heroImg {
-    width: 50px;
+    width: 15%;
+    height: auto;
     z-index: 1;
     animation-name: floating;
     animation-duration: 3s;
@@ -68,23 +69,33 @@
     top: -128px;
     left: -10vw;
     border-radius: 764px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(199, 185, 185, 0.7);
     filter: blur(100px);
     z-index: 0;
 }
 
 .bottomBlur {
     position: absolute;
-    width: 7-vw;
+    width: 70vw;
     height: 50vw;
     min-width: 350px;
     min-width: 250px;
     top: -246px;
     right: -25vw;
     border-radius: 764px;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(169, 153, 153, 0.7);
     filter: blur(100px);
     z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+
+    .container {
+        flex-direction: column-reverse;
+    }
+    .content {
+        align-items: center;
+    }
 }
 
 

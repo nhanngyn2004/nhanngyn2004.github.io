@@ -60,11 +60,11 @@
         align-items: center;
         gap: 13px;
         border-radius: 10px;
-        background: rgb(205, 186, 186);
+        background: rgb(82, 39, 222);
         background: linear-gradient(
-            0 deg, 
-            rgba(208, 193, 192, 0.2) 0%,
-            rgb(188, 171, 171) 100%
+            0deg, 
+            rgba(82, 39, 222, .2) 0%,
+            rgb(82, 39, 222, 1) 100%
         );
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rbga(0 ,0, 0, 0.25);
